@@ -1,0 +1,66 @@
+footer {
+    background-color: black;
+    margin: 0px;
+    padding-top: 50px;
+  
+  }
+  
+  footer h3 a {
+    font-size: 40px;
+    text-align: center;
+    color: $primary-color;
+    text-decoration: none;
+    margin-top: 0%;
+    margin-left: 2%;
+    font-family: 'bahnschrift';
+    letter-spacing: 15px;
+    font-weight: 100;
+  
+  }
+  
+  footer ul {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+  
+  }
+  
+  footer ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    padding-bottom: 80px;
+    width: 20%;
+  
+  }
+  
+  footer p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+
+  @media screen and (max-width:800px){
+    footer h3 a {
+        font-size: 28px;
+        letter-spacing: 10px;
+        margin-left: 8%;
+      }
+  }
+
+  @media screen and (max-width:500px){
+    .centrado {
+        width: 100%;
+      }
+    
+      footer h3 a {
+        font-size: 2vw;
+        margin-left: 10%;
+      }
+      footer p{
+        font-size: 10px;
+      }
+  }

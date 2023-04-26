@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'bahnschrift';
+    src: url('../tipografia/AnyConv.com__BAHNSCHRIFT.woff2') format('woff2'),
+         url('../tipografia/AnyConv.com__BAHNSCHRIFT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

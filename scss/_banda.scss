@@ -1,0 +1,249 @@
+section {
+    margin-top: -1px;
+  }
+  
+  .banda {
+    padding-top: 100px;
+  }
+  
+  .banda h1 {
+    font-size: 150px;
+    margin-bottom: 0px;
+  }
+  
+  .banda p {
+    margin-top: 3px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .banda img {
+    width: 18%;
+    float: left;
+    padding-right: 7%;
+    margin-top: 5%;
+    margin-bottom: 120px;
+  }
+  
+  #siluetas {
+    float: left;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 150px;
+    padding-top: 50px;
+  }
+  
+  #siluetas-t {
+    float: left;
+    display: none;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 150px;
+    padding-top: 50px;
+  }
+  
+  .lenon {
+    background-image: url(../img/lenon-silueta.png);
+    width: 177px;
+    height: 177px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+  }
+  
+  .lenon:hover {
+    background-image: url(../img/lenon-sombra.png);
+    width: 177px;
+    height: 177px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .ringo {
+    background-image: url(../img/ringo-silueta.png);
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+  }
+  
+  .ringo:hover {
+    background-image: url(../img/ringo-sombra.png);
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .mccartney {
+    background-image: url(../img/mccartney-silueta.png);
+    width: 153px;
+    height: 153px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+  }
+  
+  .mccartney:hover {
+    background-image: url(../img/mccartney-sombra.png);
+    width: 153px;
+    height: 153px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .harrison {
+    background-image: url(../img/harrison-silueta.png);
+    width: 175px;
+    height: 175px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+    margin-right: -300px;
+  }
+  
+  .harrison:hover {
+    background-image: url(../img/harrison-sombra.png);
+    width: 175px;
+    height: 175px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .lenon-t {
+    background-image: url(../img/lenon-silueta-t.png);
+    width: 98px;
+    height: 98px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+  }
+  
+  .lenon-t:hover {
+    background-image: url(../img/lenon-sombra-t.png);
+    width: 98px;
+    height: 98px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .ringo-t {
+    background-image: url(../img/ringo-silueta-t.png);
+    width: 89px;
+    height: 89px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+  }
+  
+  .ringo-t:hover {
+    background-image: url(../img/ringo-sombra-t.png);
+    width: 89px;
+    height: 89px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .mccartney-t {
+    background-image: url(../img/mccartney-silueta-t.png);
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+  }
+  
+  .mccartney-t:hover {
+    background-image: url(../img/mccartney-sombra-t.png);
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .harrison-t {
+    background-image: url(../img/harrison-silueta-t.png);
+    width: 98px;
+    height: 98px;
+    float: left;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+    margin-right: -300px;
+  }
+  
+  .harrison-t:hover {
+    background-image: url(../img/harrison-sombra-t.png);
+    width: 98px;
+    height: 98px;
+    float: left;
+    margin-left: 20px;
+  }
+
+  @media screen and (max-width:800px){
+    #siluetas {
+        display: none;
+      }
+    
+      #siluetas-t {
+        display: block;
+        margin-left: 5%;
+    
+      }
+  }
+
+  @media screen and (max-width:500px){
+
+    .color1{
+        position: relative;
+      }
+    .banda h1{
+        font-size: 30vw;
+        width: 90%;
+        margin: auto;
+      }
+    
+      .banda p {
+        padding: 2%;
+        width: 90%;
+        margin: auto;
+      }
+    
+      #siluetas-t {
+       display: none;
+      }
+      #siluetas{
+        display: block;
+        float: none;
+        margin-bottom: 300px;
+      }
+      .lenon{
+        margin-left: 0px;
+      }
+      .lenon:hover{
+        margin-left: 0px;
+      }
+     .mccartney{
+      margin-left: -340px;
+      margin-top: 190px;
+      
+     }
+     .mccartney:hover{
+      margin-left: -340px;
+      margin-top: 190px;
+      
+     }
+     .harrison{
+      margin-left: -160px;
+      margin-top: 190px;
+     width: 160px;
+     
+     }
+     .harrison:hover{
+      margin-left: -160px;
+      margin-top: 190px;
+      width: 160px;
+     
+     }
+  }

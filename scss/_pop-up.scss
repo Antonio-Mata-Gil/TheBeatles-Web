@@ -1,0 +1,321 @@
+/*POP-UP DE BANDA*/
+#fondo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.685);
+    z-index: 10;
+    display: none;
+  }
+  
+  .pop-up {
+    width: 50%;
+    box-shadow: #000000 12px 20px 36px;
+    border-radius: 30px;
+    position: fixed;
+    top: 80px;
+    left: 25%;
+    z-index: 10000;
+  }
+  
+  #pop-up-harrison {
+    background-color: black;
+    box-shadow: 0px 0px 12px #c74039;
+    color: white;
+    padding: 3%;
+    border-radius: 30px;
+    display: none;
+  
+  }
+  
+  #pop-up-harrison img {
+    width: 25%;
+    display: block;
+    float: left;
+    border: #c74039 solid 4px;
+    border-radius: 15px;
+    margin-right: 5%;
+  }
+  
+  #pop-up-harrison h4 {
+    font-size: 27px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    font-family: 'chunkfiveroman';
+    font-weight: 100;
+  }
+  
+  
+  
+  #pop-up-lenon {
+    background-color: black;
+    box-shadow: 0px 0px 12px #c5d244;
+    color: white;
+    padding: 3%;
+    border-radius: 30px;
+    display: none;
+  }
+  
+  #pop-up-lenon img {
+    width: 25%;
+    display: block;
+    float: left;
+    border: #c5d244 solid 4px;
+    border-radius: 15px;
+    margin-right: 5%;
+  }
+  
+  #pop-up-lenon h4 {
+    font-size: 27px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    font-family: 'chunkfiveroman';
+    font-weight: 100;
+  }
+  
+  #pop-up-ringo {
+    background-color: black;
+    box-shadow: 0px 0px 12px #d2238a;
+    color: white;
+    padding: 3%;
+    border-radius: 30px;
+    display: none;
+  }
+  
+  #pop-up-ringo img {
+    width: 25%;
+    display: block;
+    float: left;
+    border: #d2238a solid 4px;
+    border-radius: 15px;
+    margin-right: 5%;
+  }
+  
+  #pop-up-ringo h4 {
+    font-size: 27px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    font-family: 'chunkfiveroman';
+    font-weight: 100;
+  }
+  
+  #pop-up-mccartney {
+    background-color: black;
+    box-shadow: 0px 0px 12px #1ea9c7;
+    color: white;
+    padding: 3%;
+    border-radius: 30px;
+    display: none;
+  }
+  
+  #pop-up-mccartney img {
+    width: 25%;
+    display: block;
+    float: left;
+    border: #1ea9c7 solid 4px;
+    border-radius: 15px;
+    margin-right: 5%;
+  }
+  
+  #pop-up-mccartney h4 {
+    font-size: 27px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    font-family: 'chunkfiveroman';
+    font-weight: 100;
+  }
+
+/* POP-UP DE DISCOGRAFIA*/
+
+.Pop-up2 {
+  width: 70%;
+  box-shadow: #000000 12px 20px 36px;
+  border-radius: 30px;
+  z-index: 1000;
+  color: #000000;
+  position: fixed !important;
+  top: 7%;
+  right: 15%;
+  display: none;
+}
+
+#disco1,
+#disco2,
+#disco3,
+#disco4 {
+  background-color: #fff4c5;
+  box-shadow: 0px 0px 12px white;
+  color: black;
+  padding: 3% !important;
+  border-radius: 30px;
+  position: relative;
+}
+
+.Pop-up2 .titu-pop-up {
+  width: 70%;
+  float: left;
+  margin-bottom: 25px;
+  padding-top: 20px;
+}
+
+.Pop-up2 img {
+  width: 25% !important;
+  display: block;
+  float: left;
+
+
+}
+
+.Pop-up2 .disco-img {
+  width: 20% !important;
+  display: block;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 6px black;
+
+}
+
+
+
+#disco1 h3,
+#disco2 h3,
+#disco3 h3,
+#disco4 h3 {
+  font-size: 50px !important;
+  margin-bottom: 1px !important;
+  margin-top: 2px !important;
+  font-family: 'bootleregular';
+  font-weight: 100 !important;
+  padding-left: 4% !important;
+
+}
+
+#disco1 h3 span,
+#disco2 h3 span,
+#disco3 h3 span #disco4 h3 span {
+  font-size: 88px;
+}
+
+#disco1 h5,
+#disco2 h5,
+#disco3 h5,
+#disco4 h5 {
+  font-family: 'adobedevanagari';
+  font-size: 35px !important;
+  padding-left: 8.5% !important;
+  font-weight: 400 !important;
+  letter-spacing: 3px !important;
+  margin-top: 0px !important;
+
+}
+
+.canciones {
+  width: 100%;
+  float: left;
+}
+
+.canciones p {
+  font-family: 'Segoe UI';
+  float: left;
+  line-height: 5px;
+  width: 70%;
+  font-weight: 500;
+
+}
+
+.canciones img {
+  width: 35px !important;
+  padding-left: 5px;
+  padding-top: 4px;
+}
+
+.grupo1 {
+  width: 50%;
+  float: left;
+
+}
+
+.grupo2 {
+  width: 50%;
+  float: left;
+
+
+
+}
+
+
+/* FIN DE POP-UP DE DISCOGRAFIA*/
+
+  
+  
+  @media screen and (max-width:800px){
+    #pop-up-harrison h4 {
+        font-size: 22px;
+      }
+    
+      #pop-up-lenon h4 {
+        font-size: 22px;
+      }
+    
+      #pop-up-ringo h4 {
+        font-size: 22px;
+    
+      }
+    
+      #pop-up-mccartney h4 {
+        font-size: 22px;
+    
+      }
+  }
+
+  @media screen and (max-width:500px){
+    .pop-up{
+        position: absolute;
+        top: 45%;
+      }
+    
+      #pop-up-harrison img {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+    
+      #pop-up-harrison h4 {
+        font-size: 27px;
+      }
+    
+      #pop-up-lenon img {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+    
+      #pop-up-lenon h4 {
+        font-size: 27px;
+      }
+    
+      #pop-up-ringo img {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+    
+      #pop-up-ringo h4 {
+        font-size: 27px;
+    
+      }
+    
+      #pop-up-mccartney img {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+    
+      #pop-up-mccartney h4 {
+        font-size: 27px;
+    
+      }
+
+  }
+
+
+  

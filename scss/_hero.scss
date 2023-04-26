@@ -1,0 +1,31 @@
+.portada-imagenes {
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  
+  .portada-imagenes-movil {
+    display: none;
+  }
+  
+  .portada {
+    float: left;
+    width: 10%;
+  
+  }
+  
+  .animacion {
+  
+  
+    visibility: hidden;
+  }
+
+  @media screen and (max-width:500px) {
+    .portada-imagenes {
+        display: none;
+      }
+    
+      .portada-imagenes-movil {
+        display: block;
+      }
+  }

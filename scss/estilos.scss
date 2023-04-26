@@ -1,0 +1,43 @@
+$primary-color:#fff4c5;
+$secundary-color: #1ea9c7;
+
+@import "header";
+@import "hero";
+@import "banda";
+@import "pop-up.scss";
+@import "discografia.scss";
+@import "carrusel.scss";
+@import "galeria.scss";
+@import "footer";
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+  }
+  
+  body {
+    margin: 0px;
+  
+  }
+  h1 {
+    font-family: 'bootleregular';
+    margin-top: 0px;
+    font-weight: 100;
+  }
+  
+  p {
+    font-family: 'Segoe UI';
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+  .color1 {
+    background-color: $primary-color;
+  }
+  
+  .color2 {
+    background-color: $secundary-color;
+  }
+  

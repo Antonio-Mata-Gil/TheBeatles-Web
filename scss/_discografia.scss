@@ -1,0 +1,42 @@
+.discografia {
+    position: relative;
+    height: 600px;
+  
+  }
+  
+  .discografia h1 {
+    text-align: left;
+    font-size: 170px;
+    margin-top: 24px;
+    position: absolute;
+    top: -69px;
+    left: 10px;
+    color: #fff4c5;
+  
+  }
+
+  @media screen and (max-width:800px){
+    .discografia h1 {
+        font-size: 100px;
+        top: -50px;
+        left: 10px;
+      }
+  }
+
+
+
+  @media screen and (max-width:650px){
+    .discografia h1 {
+        font-size: 95px;
+        top: -49px;
+        left: 10px;
+      }
+  }
+
+  @media screen and (max-width:500px){
+    .discografia h1 {
+      font-size: 17vw;
+      top: -42px;
+      left: 10px;
+    }
+  }
